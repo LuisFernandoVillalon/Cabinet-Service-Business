@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&display=swap');
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2.5% 2.5% 2.5%;
+    background-color: #acab81;
+}
+.service-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0%;
+}
+.service-info-container > h2 {
+    font-size: 2.75vw;
+    font-family: 'Lobster', sans-serif;
+    color: #E24E1B;
+    margin-bottom: 0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.service-info-container > p {
+    font-size: 1.25vw;
+    font-family: 'Merriweather', serif;
+    color: #582B11;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.service-img-container  > img{
+    margin: 0%;
+    transition: transform .2s;
+    height: 95%;
+    width: 95%;
+}
+
+.service-img-container {
+    display: grid;
+    gap: 0%;
+    grid-row: auto;
+    grid-template-rows: 18% 18% 18%;
+    grid-template-columns: 25% 25% 25%;
+    place-items: center;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+.carousel-item {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carousel-item div:nth-child(2) {
+    margin-left: 25%;
+    width: 100%;
+}
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #E24E1B;
+  color: #582B11;
+    border-color: #582B11;
+  border-width: 0.25rem;
+  border-radius: 25rem;
+  font-size: 3rem;
+  opacity: 0.85;
+}
+.carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
+
+  @media screen and (min-width: 500px) {
+.service-img-container > img:hover {
+    transform: scale(2);
+}
+}
+
+  @media screen and (max-width: 480px) {
+    .carousel-wrapper {
+        display: block;
+      }
+    .service-info-container {
+        align-items: center;
+    }
+    .service-info-container > h2 {
+        font-size: 7.75vw;
+    }
+    .service-info-container > p {
+        font-size: 4.25vw;
+    }
+    .service-img-container {
+        margin-top: 0%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .service-img-container > img:active {
+        transform: scale(2.75);
+    }
+    .carousel-prev,
+    .carousel-next {
+        display: none;
+    }
+    .carousel-item {
+        margin-bottom: 15%;
+    }
+    .carousel-item div:nth-child(2) {
+        margin-left: 25%;
+        width: 100%;
+        height: 23vh;
+    }
+}

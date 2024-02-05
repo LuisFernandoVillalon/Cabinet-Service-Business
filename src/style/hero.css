@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&display=swap');
+
+@keyframes fadeIn {  
+    0% {  
+        opacity:0;  
+    }  
+    100% {  
+        opacity:1;  
+    }  
+ }
+ @keyframes righ-to-left {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.img-logo {
+    opacity: 0;
+    animation: fadeIn 3.25s forwards;
+    width: 40%;
+}
+
+.hero-container {
+    height: 100vh;
+    padding: 0% 5% 5% 5%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E24E1B;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.25vw;
+    animation: righ-to-left 1.5s ease forwards;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.hero-text-container > h1 {
+    text-align: center;
+}
+.hero-text-container > h3 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+@media screen and (max-width: 480px) {
+   .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+   .hero-text-container {
+        text-align: center;
+        font-size: 1.25rem;
+   }
+   .img-logo {
+    width: 100%;
+}
+}
