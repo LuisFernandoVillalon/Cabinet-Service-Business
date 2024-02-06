@@ -34,8 +34,6 @@ export default function DisplayServices({lang}) {
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
                             </div>
                         </div>
                     </div>
@@ -49,8 +47,6 @@ export default function DisplayServices({lang}) {
                         </div>
                         <div>
                             <div className="service-img-container">
-                                <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
@@ -72,8 +68,6 @@ export default function DisplayServices({lang}) {
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
                             </div>
                         </div>
                     </div>
@@ -87,8 +81,6 @@ export default function DisplayServices({lang}) {
                         </div>
                         <div>
                             <div className="service-img-container">
-                                <img src={Blank} alt="Example of the service"/>
-                                <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
                                 <img src={Blank} alt="Example of the service"/>
