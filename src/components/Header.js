@@ -37,7 +37,7 @@ export default function DisplayHeader({lang, setLang}) {
                             Contact Us
                         </a>
                     </h2>
-                    <button class="button-74"  onClick={handleClick}>
+                    <button className="button-74"  onClick={handleClick}>
                         Español
                     </button>
                 </div>
@@ -65,7 +65,7 @@ export default function DisplayHeader({lang, setLang}) {
                                 Contáctanos
                             </a>
                         </h2>
-                        <button class="button-74"  onClick={handleClick}>
+                        <button className="button-74"  onClick={handleClick}>
                             English
                         </button>
                     </div>

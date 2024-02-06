@@ -34,12 +34,13 @@
 .service-img-container  > img{
     margin: 0%;
     transition: transform .2s;
-    height: 95%;
-    width: 95%;
+    height: auto;
+    width: 100%;
+    
 }
 .service-img-container {
     display: grid;
-    gap: 0%;
+    gap: 1.5%;
     grid-row: auto;
     grid-template-columns: 0.20fr 0.20fr;
     place-items: center;
