@@ -74,6 +74,7 @@ font-family: 'Merriweather', serif;
     }
     .header-links-container {
         font-size: 3.4vw;
+        text-align: center;
         gap: 0.85rem;
     }
     .header-container > h1 {

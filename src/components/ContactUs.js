@@ -8,7 +8,7 @@ export default function DisplayContactUs({lang}) {
         <header className="contactus-container" id="contactus">
             {lang ? (
                     <>
-                        <h1>Contact Us</h1>
+                        <h2>Contact Us</h2>
                         <div className="contact-info-container">
                             <div className="logo-info-container">
                                 <BiLogoWhatsapp className="contact-logo"/>
@@ -25,20 +25,20 @@ export default function DisplayContactUs({lang}) {
                             <div className="logo-info-container">
                                 <BiLogoFacebookSquare className="contact-logo"/>
                                 <p>
-                                    Facebook Profile Link
+                                    Facebook Profile
                                 </p>
                             </div>
                             <div className="logo-info-container">
                                 <BiLogoTiktok className="contact-logo"/>
                                 <p>
-                                    TikTok Profile Link
+                                    TikTok Profile
                                 </p>
                             </div>
                         </div>
                     </>
                     ) : (
                     <>
-                        <h1>Contáctanos</h1>
+                        <h2>Contáctanos</h2>
                         <div className="contact-info-container">
                             <div className="logo-info-container">
                                 <BiLogoWhatsapp className="contact-logo"/>
@@ -55,13 +55,13 @@ export default function DisplayContactUs({lang}) {
                             <div className="logo-info-container">
                                 <BiLogoFacebookSquare className="contact-logo"/>
                                 <p>
-                                    Enlace de Perfil de Facebook
+                                    Perfil de Facebook
                                 </p>
                             </div>
                             <div className="logo-info-container">
                                 <BiLogoTiktok className="contact-logo"/>
                                 <p>
-                                    Enlace de Perfil de TikTok
+                                    Perfil de TikTok
                                 </p>
                             </div>
                         </div>

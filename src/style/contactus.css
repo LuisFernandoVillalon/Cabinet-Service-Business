@@ -6,10 +6,10 @@
     justify-content: center;
     padding: 2.5%;
 }
-.contactus-container > h1 {
+.contactus-container > h2 {
     color: #E24E1B;
     font-family: 'Lobster', sans-serif;
-    font-size: 3rem;
+    font-size: 4vw;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .contact-info-container {
@@ -21,7 +21,7 @@
 }
 .logo-info-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 2.5%;
 }
@@ -43,7 +43,7 @@
         font-size: 10vw;
         color: #E24E1B;
     }
-    .contactus-container > h1 {
-        font-size: 1.5rem;
+    .contactus-container > h2 {
+        font-size: 10vw;
     }
 }
