@@ -68,17 +68,17 @@ export default function DisplayServices({lang}) {
 
     const prevImgSlide = (service) => {
         if (service === 1) {
-            setCurrentImgIndex1((prevImgIndex) => (prevImgIndex + 1) % imgData1.length);
+            setCurrentImgIndex1((prevImgIndex) => (prevImgIndex - 1) % imgData1.length);
         } else if (service === 2) {
-            setCurrentImgIndex2((prevImgIndex) => (prevImgIndex + 1) % imgData2.length);
+            setCurrentImgIndex2((prevImgIndex) => (prevImgIndex - 1) % imgData2.length);
         } else if (service === 3) {
-            setCurrentImgIndex3((prevImgIndex) => (prevImgIndex + 1) % imgData3.length);
+            setCurrentImgIndex3((prevImgIndex) => (prevImgIndex - 1) % imgData3.length);
         } else if (service === 4) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData4.length);
+            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1) % imgData4.length);
         } else if (service === 5) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData4.length);
+            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1) % imgData4.length);
         } else if (service === 6) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData4.length);
+            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1) % imgData4.length);
         }
         // setCurrentImgIndex((prevImgIndex) => (prevImgIndex - 1 + imgData.length) % imgData.length);
     }
