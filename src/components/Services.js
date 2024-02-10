@@ -34,9 +34,7 @@ export default function DisplayServices({lang}) {
     const imgData2 = [1, 2, 3, 4, 5, 6];
     const imgData3 = [1, 2, 3, 4, 5, 6];
     const imgData4 = [1, 2, 3, 4, 5, 6];
-    const imgData5 = [1, 2, 3, 4, 5, 6];
-    const imgData6 = [1, 2, 3, 4, 5, 6];
-
+    
     const [currentIndex, setCurrentIndex] = useState(0);
     const [currentImgIndex1, setCurrentImgIndex1] = useState(0);
     const [currentImgIndex2, setCurrentImgIndex2] = useState(0);
@@ -59,15 +57,8 @@ export default function DisplayServices({lang}) {
             setCurrentImgIndex3((prevImgIndex) => (prevImgIndex + 1) % imgData3.length);
         } else if (service === 4) {
             setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData4.length);
-        } else if (service === 5) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData5.length);
-        } else if (service === 6) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex + 1) % imgData6.length);
-        }
-
-        // setCurrentImgIndex((prevImgIndex) => (prevImgIndex + 1) % imgData.length);
+        } 
     }
-
     const prevImgSlide = (service) => {
         if (service === 1) {
             setCurrentImgIndex1((prevImgIndex) => (prevImgIndex - 1 + imgData1.length) % imgData1.length);
@@ -77,14 +68,9 @@ export default function DisplayServices({lang}) {
             setCurrentImgIndex3((prevImgIndex) => (prevImgIndex - 1 + imgData3.length) % imgData3.length);
         } else if (service === 4) {
             setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1 + imgData4.length) % imgData4.length);
-        } else if (service === 5) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1 + imgData5.length) % imgData5.length);
-        } else if (service === 6) {
-            setCurrentImgIndex4((prevImgIndex) => (prevImgIndex - 1 + imgData6.length) % imgData6.length);
-        }
-        // setCurrentImgIndex((prevImgIndex) => (prevImgIndex - 1 + imgData.length) % imgData.length);
+        } 
     }
-    console.log(windowWidth)
+
     return (
         <div className="services-container" id="services">
             <div className="carousel-container">
