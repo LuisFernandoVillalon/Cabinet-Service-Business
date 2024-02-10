@@ -39,7 +39,7 @@
     color: #E24E1B;
     font-family: 'Lobster', sans-serif;
     font-size: 2.25vw;
-    animation: righ-to-left 1.5s ease forwards;
+    /* animation: righ-to-left 1.5s ease forwards; */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .hero-text-container > h1 {
