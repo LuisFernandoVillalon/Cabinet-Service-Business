@@ -4,7 +4,7 @@ import Blank from '../style/blank.png';
 
 export default function DisplayServices({lang}) {
 
-    const [windowWidth, setWindowWidth] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(true);
 
     useEffect(() => {
         if (window.innerWidth <= 740) {
@@ -14,8 +14,20 @@ export default function DisplayServices({lang}) {
             //console.log(window.innerWidth, windowWidth)
             setWindowWidth(true);
         }
+        const handleResize = () => {
+        if (window.innerWidth <= 740) {
+            //console.log(window.innerWidth, windowWidth)
+            setWindowWidth(false);
+        } else {
+            //console.log(window.innerWidth, windowWidth)
+            setWindowWidth(true);
+        }
         console.log(windowWidth)
+        }
+        window.addEventListener('resize', handleResize);
+
     }, [windowWidth]);
+
 
     const data = [1, 2, 3, 4];
     const imgData1 = [1, 2, 3, 4, 5, 6];
