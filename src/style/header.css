@@ -16,7 +16,7 @@
     z-index: 1;
 }
 .header-container > h1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     animation: left-to-right 1.5s ease forwards;
 }
 .header-links-container {
