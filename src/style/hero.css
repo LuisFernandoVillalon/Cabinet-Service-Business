@@ -8,12 +8,12 @@
         opacity:1;  
     }  
  }
- @keyframes righ-to-left {
+ @keyframes down-to-up {
     0% {
-        transform: translateX(150%);
+        transform: translateY(150%);
     }
     100% {
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 
@@ -39,7 +39,7 @@
     color: #E24E1B;
     font-family: 'Lobster', sans-serif;
     font-size: 2.25vw;
-    /* animation: righ-to-left 1.5s ease forwards; */
+    animation: down-to-up 1.5s ease forwards; 
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .hero-text-container > h1 {
