@@ -5,7 +5,7 @@
     align-items: center;
     padding: 2.5%;
     /* position: relative; */
-    height: 75vh;
+    /* height: 75vh; */
     /* background-image: url(./logo.png); */
     /* background-size: cover; */
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./logo.png);
@@ -42,7 +42,7 @@
     transform: translate(-50%, -50%); */
     opacity: 1;
  }  
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
     .aboutus-text-container > h2 {
         font-size: 10vw;
     }

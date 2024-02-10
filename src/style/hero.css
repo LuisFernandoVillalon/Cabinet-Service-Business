@@ -49,7 +49,7 @@
     font-family: 'Merriweather', serif;
     font-style: italic;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
    .hero-container {
         flex-direction: column;
         justify-content: center;

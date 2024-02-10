@@ -35,7 +35,7 @@
     font-family: 'Merriweather', serif;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
     .logo-info-container > p {
         font-size: 3.75vw;
     }
