@@ -6,7 +6,6 @@ export default function DisplayAboutUs({lang}) {
     
     return (
         <div className="aboutus-container" id="aboutus">
-            {/* <img src={Logo} alt="Company Logo"/> */}
             {lang ? (
                 <div className="aboutus-text-container">
                     <h2>About Us</h2>

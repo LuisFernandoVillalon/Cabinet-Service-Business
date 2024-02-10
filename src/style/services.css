@@ -118,12 +118,11 @@
         border-radius: 5rem;
         font-size: 8vw;
     }
-
     .carousel-img-prev {
         margin-top: 15%;
         margin-left: 28%;
     }
-      .carousel-img-next {
+    .carousel-img-next {
         margin-top: 15%;
         margin-left: 15%;
     }
@@ -150,8 +149,9 @@
     }
     .carousel-wrapper {
         display: block;
-      }
+    }
     .service-info-container {
+        text-align: center;
         align-items: center;
     }
     .service-info-container > h2 {

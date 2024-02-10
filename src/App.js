@@ -8,11 +8,11 @@ import ContactUs from './components/ContactUs.js';
 
 const  App = () => {
 
-  const [lang, setLang] = useState(false);
+  const [lang, setLang] = useState(true);
   if (lang) {
-    document.title = "Servicio de Gabinete de Romero";
-  } else {
     document.title = "Romero's Cabinet Service";
+  } else {
+    document.title = "Servicio de Gabinete de Romero";
   }
   return (
     <div className="body-grid">
