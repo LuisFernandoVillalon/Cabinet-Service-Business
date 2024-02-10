@@ -82,6 +82,7 @@ export default function DisplayServices({lang}) {
         }
         // setCurrentImgIndex((prevImgIndex) => (prevImgIndex - 1 + imgData.length) % imgData.length);
     }
+    console.log(windowWidth)
     return (
         <div className="services-container" id="services">
             <div className="carousel-container">
