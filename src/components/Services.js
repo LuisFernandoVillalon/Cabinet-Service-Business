@@ -4,16 +4,17 @@ import Blank from '../style/blank.png';
 
 export default function DisplayServices({lang}) {
 
-    const [windowWidth, setWindowWidth] = useState(true);
+    const [windowWidth, setWindowWidth] = useState(false);
 
     useEffect(() => {
         if (window.innerWidth <= 740) {
-            console.log(window.innerWidth, windowWidth)
+            //console.log(window.innerWidth, windowWidth)
             setWindowWidth(false);
         } else {
             //console.log(window.innerWidth, windowWidth)
             setWindowWidth(true);
         }
+        console.log(windowWidth)
     }, [windowWidth]);
 
     const data = [1, 2, 3, 4];
@@ -69,8 +70,6 @@ export default function DisplayServices({lang}) {
         }
         // setCurrentImgIndex((prevImgIndex) => (prevImgIndex - 1 + imgData.length) % imgData.length);
     }
-
-    console.log(windowWidth)
     return (
         <div className="services-container" id="services">
             <div className="carousel-container">
