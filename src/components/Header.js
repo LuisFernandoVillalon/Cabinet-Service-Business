@@ -18,7 +18,7 @@ export default function DisplayHeader({lang, setLang}) {
             <>
                 <h1>
                     <a href="#hero">
-                        Romero's Cabinet Service
+                        California Custom Cabinets, Inc. 
                     </a>
                 </h1>
                 <div className="header-links-container">
@@ -46,7 +46,7 @@ export default function DisplayHeader({lang, setLang}) {
                 <>
                     <h1>
                         <a href="#hero">
-                            Servicio de Gabinete de Romero
+                            California Custom Cabinets, Inc. 
                         </a>
                     </h1>
                     <div className="header-links-container">

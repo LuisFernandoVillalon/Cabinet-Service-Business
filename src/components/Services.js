@@ -4,6 +4,8 @@ import Blank from '../style/blank.png';
 
 export default function DisplayServices({lang}) {
 
+    //true is desktop mode
+    //false is mobile view
     const [windowWidth, setWindowWidth] = useState(true);
 
     useEffect(() => {
